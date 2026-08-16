@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohammed Salahudeen — Aspiring DevOps Engineer passionate about cloud infrastructure, automation, CI/CD, Docker, Kubernetes, Terraform, and AWS.">
+  <meta name="keywords" content="DevOps, Cloud Engineer, AWS, Docker, Kubernetes, Terraform, CI/CD, Portfolio">
+  <meta name="author" content="Mohammed Salahudeen">
+  <title>Mohammed Salahudeen — Aspiring DevOps Engineer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- ========================================
+       NAVIGATION
+       ======================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="nav-logo-icon">MS</div>
+        <span>Mohammed Salahudeen</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="nav-cta">Let's Connect</a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========================================
+       1. HERO SECTION
+       ======================================== -->
+  <section class="hero section" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Open to Internships &amp; Opportunities
+          </div>
+
+          <h1 class="hero-name">Mohammed Salahudeen</h1>
+          <h2 class="hero-title">Aspiring DevOps Engineer</h2>
+          <p class="hero-headline">Building Reliable Infrastructure. Automating the Future.</p>
+          <p class="hero-desc">
+            I am an aspiring DevOps Engineer passionate about cloud infrastructure,
+            automation, continuous integration and deployment, containerization, and building
+            reliable software delivery systems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i data-lucide="folder-open" style="width:18px;height:18px"></i>
+              View My Projects
+            </a>
+            <a id="cvDownload" href="assets/Mohammed-Salahudeen-CV.pdf" class="btn btn-outline" download>
+              <i data-lucide="download" style="width:18px;height:18px"></i>
+              Download CV
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-orbit">
+            <div class="orbit-dot"></div>
+            <div class="orbit-dot"></div>
+            <div class="orbit-dot"></div>
+          </div>
+          <div class="hero-image-container">
+            <img src="assets/profile.jpg" alt="Mohammed Salahudeen — Aspiring DevOps Engineer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       2. ABOUT SECTION
+       ======================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+
+        <h2 class="section-title">Who I Am</h2>
+        <p class="section-subtitle">
+          A driven university student building a career as an aspiring DevOps Engineer.
+        </p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text reveal">
+          <p>
+            I'm Mohammed Salahudeen, a university student with a growing passion for
+            cloud computing, infrastructure automation, and DevOps engineering. I am focused
+            on building practical skills to design, deploy, and maintain reliable systems at scale.
+          </p>
+          <p>
+            My interests include DevOps practices, cloud infrastructure, Linux system
+            administration, networking fundamentals, Infrastructure as Code, CI/CD pipelines,
+            containerization, and system reliability. I believe in continuous learning and
+            hands-on experimentation as I work toward becoming a strong DevOps engineer.
+          </p>
+
+          <div class="about-goal">
+            <p>
+              "I aim to become a skilled DevOps Engineer who can design, automate, deploy,
+              and maintain reliable and scalable cloud infrastructure."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       3. SKILLS SECTION
+       ======================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+
+        <h2 class="section-title">Technologies &amp; Tools</h2>
+        <p class="section-subtitle">
+          The technologies I work with and continue to learn as I grow in DevOps engineering.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Cloud -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-category-header">
+            <div class="skill-category-icon cloud">☁️</div>
+            <h3 class="skill-category-title">Cloud</h3>
+          </div>
+          <div class="skill-tags">
+            <div class="skill-tag tech-card">
+              <img src="assets/AWS.png" alt="AWS" class="tech-image">
+              <span class="tech-label">AWS</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="assets/ECws.png" alt="EC2" class="tech-image">
+              <span class="tech-label">EC2</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="assets/s3.jpg" alt="S3" class="tech-image">
+              <span class="tech-label">S3</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="assets/VPC.png" alt="VPC" class="tech-image">
+              <span class="tech-label">VPC</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="assets/IAM.png" alt="IAM" class="tech-image">
+              <span class="tech-label">IAM</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="assets/lambda.png" alt="Lambda" class="tech-image">
+              <span class="tech-label">Lambda</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="assets/Dynamo%20DB.jpg" alt="DynamoDB" class="tech-image">
+              <span class="tech-label">DynamoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- DevOps -->
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-category-header">
+            <div class="skill-category-icon devops">🔄</div>
+            <h3 class="skill-category-title">DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/gitlab/FC6D26" alt="GitLab" class="tech-image">
+              <span class="tech-label">CI/CD</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/terraform/7B42BC" alt="Terraform" class="tech-image">
+              <span class="tech-label">IaC</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" class="tech-image">
+              <span class="tech-label">Automation</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" class="tech-image">
+              <span class="tech-label">Deployment</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/prometheus/E6522C" alt="Prometheus" class="tech-image">
+              <span class="tech-label">Monitoring</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-category-header">
+            <div class="skill-category-icon tools">🛠️</div>
+            <h3 class="skill-category-title">Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/git/F05032" alt="Git" class="tech-image">
+              <span class="tech-label">Git</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" class="tech-image">
+              <span class="tech-label">GitHub</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" class="tech-image">
+              <span class="tech-label">Docker</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/kubernetes/326CE5" alt="Kubernetes" class="tech-image">
+              <span class="tech-label">Kubernetes</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/terraform/7B42BC" alt="Terraform" class="tech-image">
+              <span class="tech-label">Terraform</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/jenkins/D24939" alt="Jenkins" class="tech-image">
+              <span class="tech-label">Jenkins</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" class="tech-image">
+              <span class="tech-label">GitHub Actions</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/nginx/009639" alt="Nginx" class="tech-image">
+              <span class="tech-label">Nginx</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Operating Systems -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-category-header">
+            <div class="skill-category-icon os">🐧</div>
+            <h3 class="skill-category-title">Operating Systems</h3>
+          </div>
+          <div class="skill-tags">
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux" class="tech-image">
+              <span class="tech-label">Linux</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/ubuntu/E95420" alt="Ubuntu" class="tech-image">
+              <span class="tech-label">Ubuntu</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programming / Scripting -->
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-category-header">
+            <div class="skill-category-icon scripting">💻</div>
+            <h3 class="skill-category-title">Programming / Scripting</h3>
+          </div>
+          <div class="skill-tags">
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Bash" class="tech-image">
+              <span class="tech-label">Bash</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" class="tech-image">
+              <span class="tech-label">JavaScript</span>
+            </div>
+            <div class="skill-tag tech-card">
+              <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" class="tech-image">
+              <span class="tech-label">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       4. PROJECTS SECTION
+       ======================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+
+        <h2 class="section-title">Featured Work</h2>
+        <p class="section-subtitle">
+          Hands-on projects showcasing cloud infrastructure, automation, and DevOps skills.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 01 -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-thumbnail">
+            <div class="project-thumbnail-content">
+              <div><span class="prompt">$</span> <span class="command">terraform init</span></div>
+              <div><span class="output">Initializing provider plugins...</span></div>
+              <div><span class="prompt">$</span> <span class="command">terraform apply -auto-approve</span></div>
+              <div><span class="output">Apply complete! Resources: 12 added.</span></div>
+            </div>
+            <span class="project-card-number">01</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">AWS Cloud Infrastructure</h3>
+            <p class="project-card-desc">
+              Deploy and configure cloud infrastructure using AWS services and
+              Infrastructure as Code with Terraform.
+            </p>
+            <div class="project-tech-badges">
+              <span class="tech-badge">AWS</span>
+              <span class="tech-badge">Terraform</span>
+              <span class="tech-badge">Linux</span>
+            </div>
+            <div class="project-card-actions">
+              <a href="#" class="btn btn-outline btn-sm">
+                <i data-lucide="github" style="width:16px;height:16px"></i> GitHub
+              </a>
+              <button class="btn-expand" type="button">
+                <span>View Details</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-details-content">
+              <h4>My Contribution</h4>
+              <p>
+                Designed and provisioned a complete AWS infrastructure using Terraform, including VPC,
+                subnets, security groups, EC2 instances, and S3 buckets. Configured IAM roles and
+                policies for secure access management.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 02 -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-thumbnail">
+            <div class="project-thumbnail-content">
+              <div><span class="prompt">$</span> <span class="command">git push origin main</span></div>
+              <div><span class="output">Triggering CI/CD pipeline...</span></div>
+              <div><span class="output">✓ Build passed</span></div>
+              <div><span class="output">✓ Tests passed (24/24)</span></div>
+              <div><span class="output">✓ Deployed to production</span></div>
+            </div>
+            <span class="project-card-number">02</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">CI/CD Pipeline</h3>
+            <p class="project-card-desc">
+              Build an automated pipeline for testing and deploying a web application
+              using GitHub Actions.
+            </p>
+            <div class="project-tech-badges">
+              <span class="tech-badge">GitHub Actions</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Git</span>
+              <span class="tech-badge">Linux</span>
+            </div>
+            <div class="project-card-actions">
+              <a href="#" class="btn btn-outline btn-sm">
+                <i data-lucide="github" style="width:16px;height:16px"></i> GitHub
+              </a>
+              <button class="btn-expand" type="button">
+                <span>View Details</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-details-content">
+              <h4>My Contribution</h4>
+              <p>
+                Configured a complete CI/CD workflow using GitHub Actions. Set up automated
+                linting, testing, building, and deployment stages. Implemented branch
+                protection rules and pull request workflows for team collaboration.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 03 -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-thumbnail">
+            <div class="project-thumbnail-content">
+              <div><span class="prompt">$</span> <span class="command">docker build -t myapp .</span></div>
+              <div><span class="output">Successfully built a1b2c3d4</span></div>
+              <div><span class="prompt">$</span> <span class="command">docker run -d -p 3000:3000 myapp</span></div>
+              <div><span class="output">Container started: e5f6g7h8</span></div>
+            </div>
+            <span class="project-card-number">03</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Containerized Application</h3>
+            <p class="project-card-desc">
+              Containerize and deploy a full-stack application using Docker with
+              multi-stage builds and Docker Compose.
+            </p>
+            <div class="project-tech-badges">
+              <span class="tech-badge">Docker</span>
+              <span class="tech-badge">Linux</span>
+              <span class="tech-badge">Node.js</span>
+            </div>
+            <div class="project-card-actions">
+              <a href="#" class="btn btn-outline btn-sm">
+                <i data-lucide="github" style="width:16px;height:16px"></i> GitHub
+              </a>
+              <button class="btn-expand" type="button">
+                <span>View Details</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-details-content">
+              <h4>My Contribution</h4>
+              <p>
+                Created optimized Dockerfiles with multi-stage builds, configured Docker
+                Compose for local development, set up environment variables, volume
+                mounts, and networking between services.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 04 -->
+        <div class="project-card reveal reveal-delay-4">
+          <div class="project-thumbnail">
+            <div class="project-thumbnail-content">
+              <div><span class="prompt">$</span> <span class="command">kubectl apply -f deployment.yaml</span></div>
+              <div><span class="output">deployment.apps/myapp created</span></div>
+              <div><span class="prompt">$</span> <span class="command">kubectl get pods</span></div>
+              <div><span class="output">myapp-7d9f8b6c5-x2k4l   1/1  Running</span></div>
+              <div><span class="output">myapp-7d9f8b6c5-m8n3p   1/1  Running</span></div>
+            </div>
+            <span class="project-card-number">04</span>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Kubernetes Deployment</h3>
+            <p class="project-card-desc">
+              Deploy and manage a containerized application on Kubernetes with
+              auto-scaling, services, and ingress configuration.
+            </p>
+            <div class="project-tech-badges">
+              <span class="tech-badge">Docker</span>
+              <span class="tech-badge">Kubernetes</span>
+            </div>
+            <div class="project-card-actions">
+              <a href="#" class="btn btn-outline btn-sm">
+                <i data-lucide="github" style="width:16px;height:16px"></i> GitHub
+              </a>
+              <button class="btn-expand" type="button">
+                <span>View Details</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-details">
+            <div class="project-details-content">
+              <h4>My Contribution</h4>
+              <p>
+                Wrote Kubernetes manifests for deployments, services, and ingress controllers.
+                Configured horizontal pod autoscaling, resource limits, health checks,
+                and rolling update strategies.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       5. EDUCATION SECTION
+       ======================================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+
+        <h2 class="section-title">Academic Background</h2>
+        <p class="section-subtitle">
+          My academic foundation in Management &amp; Information Technology, specializing in cloud computing and DevOps.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- University -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <h4>🎓 University</h4>
+                <h3>BSc (Hons) in Management and Information Technology (MIT)</h3>
+              </div>
+              <span class="timeline-date">Expected 2029</span>
+            </div>
+            <p>University of Kelaniya — Sri Lanka</p>
+            <div class="timeline-tags">
+              <span class="tech-badge">Cloud Computing</span>
+              <span class="tech-badge">DevOps</span>
+              <span class="tech-badge">Networking</span>
+              <span class="tech-badge">Linux Administration</span>
+              <span class="tech-badge">Infrastructure as Code</span>
+              <span class="tech-badge">Software Development</span>
+              <span class="tech-badge">Database Systems</span>
+              <span class="tech-badge">Cyber Security</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- School -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div>
+                <h4>🏫 School Education</h4>
+                <h3>Al Ashraq Maha Vidyalaya</h3>
+              </div>
+              <span class="timeline-date"></span>
+            </div>
+            <p>Kurunegala, Sri Lanka</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       6. EXPERIENCE SECTION
+       ======================================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+
+        <h2 class="section-title">Professional Journey</h2>
+        <p class="section-subtitle">
+          Building hands-on experience through projects, learning, and collaboration.
+        </p>
+      </div>
+
+      <div class="experience-notice reveal">
+        <div class="experience-notice-card">
+          <div class="icon">🚀</div>
+          <h3>Currently Building Practical Experience</h3>
+          <p>
+            I am actively developing real-world skills through academic projects, personal
+            DevOps projects, open-source contributions, and continuous learning. Every project
+            is an opportunity to grow and strengthen my engineering capabilities.
+          </p>
+        </div>
+      </div>
+
+      <div class="experience-types reveal reveal-delay-1">
+        <div class="experience-type">
+          <div class="icon">💼</div>
+          <h4>Internship</h4>
+          <p>Seeking opportunities</p>
+        </div>
+        <div class="experience-type">
+          <div class="icon">📚</div>
+          <h4>Academic Projects</h4>
+          <p>Active</p>
+        </div>
+        <div class="experience-type">
+          <div class="icon">🌐</div>
+          <h4>Freelance Work</h4>
+          <p>Open to projects</p>
+        </div>
+        <div class="experience-type">
+          <div class="icon">🤝</div>
+          <h4>Volunteer</h4>
+          <p>ER Coordinator — LEO Club</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       7. CERTIFICATIONS SECTION
+       ======================================== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+
+        <h2 class="section-title">Credentials</h2>
+        <p class="section-subtitle">
+          Certifications, courses, and achievements that validate my growing expertise.
+        </p>
+      </div>
+
+      <div class="certs-grid">
+
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon">🛡️</div>
+          <div class="cert-content">
+            <h3>Career Essentials in Cybersecurity by Microsoft and LinkedIn</h3>
+            <div class="cert-issuer-tags">
+              <span class="issuer-tag issuer-ms">Microsoft</span>
+              <span class="issuer-tag issuer-li">LinkedIn</span>
+            </div>
+            <a href="https://www.linkedin.com/learning/certificates/5ba30b8e82e44f40df45f73088452aa56700ca2b9b6bc3fef5073c010ef92508" target="_blank" rel="noopener noreferrer" class="cert-link">
+              Verify Credential
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-icon">🔐</div>
+          <div class="cert-content">
+            <h3>Cybersecurity Foundations</h3>
+            <div class="cert-issuer-tags">
+              <span class="issuer-tag issuer-li">LinkedIn Learning</span>
+            </div>
+            <a href="https://www.linkedin.com/learning/certificates/6cc420301796ac6e6184fe5597ee88fbcf1f1ec6f294aa47e47b6af1cc2661a7" target="_blank" rel="noopener noreferrer" class="cert-link">
+              Verify Credential
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-3">
+          <div class="cert-icon">🤖</div>
+          <div class="cert-content">
+            <h3>Microsoft Security Copilot</h3>
+            <div class="cert-issuer-tags">
+              <span class="issuer-tag issuer-ms">Microsoft</span>
+              <span class="issuer-tag issuer-li">LinkedIn</span>
+            </div>
+            <a href="https://www.linkedin.com/learning/certificates/db842f28d15461ebb2b5a378c40f6e652212b07d0258d4ad09554f675fa4dd1f" target="_blank" rel="noopener noreferrer" class="cert-link">
+              Verify Credential
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-icon">📖</div>
+          <div class="cert-content">
+            <h3>Cybersecurity Awareness: Cybersecurity Terminology</h3>
+            <div class="cert-issuer-tags">
+              <span class="issuer-tag issuer-li">LinkedIn Learning</span>
+            </div>
+            <a href="https://www.linkedin.com/learning/certificates/2a8939bab7e2d477fbe29b53438f316a4b2b31ad4e11afd73c0ad5c8b66f6fcc" target="_blank" rel="noopener noreferrer" class="cert-link">
+              Verify Credential
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-icon">🌐</div>
+          <div class="cert-content">
+            <h3>The Cybersecurity Threat Landscape</h3>
+            <div class="cert-issuer-tags">
+              <span class="issuer-tag issuer-li">LinkedIn Learning</span>
+            </div>
+            <a href="https://www.linkedin.com/learning/certificates/c5195708267f4ee44aeb4882b8b660a2bbab5c88fd82231197ed5900dbc58fc0" target="_blank" rel="noopener noreferrer" class="cert-link">
+              Verify Credential
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hackathon card — full-width with dropdown -->
+        <div class="cert-card cert-card-hackathon reveal reveal-delay-3">
+          <div class="cert-icon cert-icon-hackathon">🏆</div>
+          <div class="cert-content" style="width:100%">
+            <div class="cert-header-row">
+              <div>
+                <h3>Hackathons</h3>
+                <div class="cert-issuer-tags">
+                  <span class="issuer-tag issuer-award">HackX 10.0 — Semifinalist</span>
+                </div>
+              </div>
+              <button class="cert-dropdown-btn" id="hackathonDropdownBtn" aria-expanded="false" aria-controls="hackathonDropdown" onclick="toggleHackathonDropdown()">
+                <svg class="cert-chevron" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+            </div>
+
+            <div class="cert-dropdown" id="hackathonDropdown">
+              <div class="cert-dropdown-inner">
+                <p class="cert-story">Our team <strong>Tech Storm</strong> was selected as Semifinalist Participants and placed among the <strong>Top 30 teams out of 270+ proposals</strong> at HackX, an innovation competition conducted by the Department of Industrial Management, Faculty of Science, University of Kelaniya. 💡</p>
+                <p class="cert-story">We presented our idea — an application that directly connects farmers with final buyers, ensuring better profits for farmers while providing fair prices and transparency to consumers. This experience gave us meaningful insights into innovation, problem-solving, and creating real-world impact in the agricultural sector. 🌱</p>
+                <div class="cert-image-wrapper">
+                  <img src="assets/Hackathon.jpeg" alt="HackX 10.0 Certificate of Appreciation — Salahudeen Mohammed" class="cert-image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       8. RESUME SECTION
+       ======================================== -->
+  <section class="section" id="resume">
+    <div class="container">
+      <div class="resume-content reveal">
+        <div class="resume-card">
+          <div class="icon">📄</div>
+          <h3>Want to know more about my experience?</h3>
+          <p>
+            Download or view my resume for a comprehensive overview of my skills,
+            education, projects, and career objectives.
+          </p>
+          <div class="resume-actions">
+            <a id="cvDownloadResume" href="assets/Mohammed-Salahudeen-CV.pdf" class="btn btn-primary" download>
+              <i data-lucide="download" style="width:18px;height:18px"></i>
+              Download CV
+            </a>
+            <a id="cvViewResume" href="assets/Mohammed-Salahudeen-CV.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="eye" style="width:18px;height:18px"></i>
+              View CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       9. CONTACT SECTION
+       ======================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+
+        <h2 class="section-title">Let's Build Something Great Together</h2>
+        <p class="section-subtitle">
+          Have a project, internship opportunity, or just want to connect? Reach out!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Get in Touch</h3>
+          <p>
+            I'm always open to discussing DevOps, cloud infrastructure, new projects,
+            internship opportunities, or any collaboration. Let's connect and build
+            something great.
+          </p>
+
+          <div class="contact-links">
+            <a href="https://mail.google.com/mail/?view=cm&to=salahmohammed0385@gmail.com" target="_blank" class="contact-link">
+              <div class="contact-link-icon">
+                <img src="assets/gmail.webp" alt="Email" class="contact-link-image">
+              </div>
+              <div class="contact-link-text">
+                <h4>Email</h4>
+                <p>salahmohammed0385@gmail.com</p>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/mohammed-salah05" target="_blank" class="contact-link">
+              <div class="contact-link-icon">
+                <img src="assets/linkedin.jpg" alt="LinkedIn" class="contact-link-image">
+              </div>
+              <div class="contact-link-text">
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/mohammed-salah05</p>
+              </div>
+            </a>
+
+            <a href="https://github.com/salahmohammed05" target="_blank" class="contact-link">
+              <div class="contact-link-icon">
+                <img src="assets/github.png" alt="GitHub" class="contact-link-image">
+              </div>
+              <div class="contact-link-text">
+                <h4>GitHub</h4>
+                <p>github.com/salahmohammed05</p>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-1" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?">
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">
+            <i data-lucide="send" style="width:18px;height:18px"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================
+       10. FOOTER
+       ======================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Mohammed Salahudeen</h3>
+          <p>Aspiring DevOps Engineer</p>
+        </div>
+
+        <p class="footer-tagline">
+          "Building, automating, and learning one deployment at a time."
+        </p>
+
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/mohammed-salah05" target="_blank" aria-label="LinkedIn">
+            <img src="assets/linkedin.jpg" alt="LinkedIn" class="footer-social-icon">
+          </a>
+          <a href="https://github.com/salahmohammed05" target="_blank" aria-label="GitHub">
+            <img src="assets/github.png" alt="GitHub" class="footer-social-icon">
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&to=salahmohammed0385@gmail.com" target="_blank" aria-label="Email">
+            <img src="assets/gmail.webp" alt="Email" class="footer-social-icon">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mohammed Salahudeen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i data-lucide="chevron-up" style="width:20px;height:20px"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script>
+    // ── EmailJS Configuration ──────────────────────────────────────────
+    // STEP 1: Replace YOUR_PUBLIC_KEY with your EmailJS Public Key
+    // STEP 2: Replace YOUR_SERVICE_ID with your EmailJS Service ID
+    // STEP 3: Replace YOUR_TEMPLATE_ID with your EmailJS Template ID
+    const EMAILJS_PUBLIC_KEY  = 'T2ftW20AStU5VVpCV';
+    const EMAILJS_SERVICE_ID  = 'service_opmtspe';
+    const EMAILJS_TEMPLATE_ID = 'template_bcrebtm';
+
+    emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+    // ───────────────────────────────────────────────────────────────────
+
+    // Initialize Lucide icons after page load
+    window.addEventListener('load', () => {
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+    });
+  </script>
+
+</body>
+</html>
